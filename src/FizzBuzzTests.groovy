@@ -9,4 +9,11 @@ class FizzBuzzTests extends GroovyTestCase {
 
         assert [] == x.calculate([])
     }
+
+     @Test
+    void testShouldReturn1WhenPassed1() {
+        def x = new FizzBuzz()
+
+        assert [1] == x.calculate([1])
+    }
 }
