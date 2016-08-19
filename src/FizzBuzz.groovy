@@ -3,7 +3,7 @@ class FizzBuzz {
     def public calculate(listOfNumbers) {
         def list = []
         listOfNumbers.each {
-        	if (it == 3) {
+        	if (it%3 == 0) {
         		list << "Fizz"
                 return
         	} 
