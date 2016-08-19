@@ -18,3 +18,4 @@ class FizzBuzz {
         list
     }
 }
+//test then code for number 10, add , commit.
