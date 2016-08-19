@@ -16,4 +16,11 @@ class FizzBuzzTests extends GroovyTestCase {
 
         assert [1] == x.calculate([1])
     }
+
+    @Test
+    void testShouldReturnFizzWhenPassed3() {
+        def x = new FizzBuzz()
+
+        assert ["Fizz"] == x.calculate([3])
+    }
 }
