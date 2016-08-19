@@ -1,7 +1,7 @@
 class FizzBuzz {
 
     def public calculate(listOfNumbers) {
-        def list = []
+        def list = null
         list
     }
 }
