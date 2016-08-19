@@ -5,9 +5,15 @@ class FizzBuzz {
         listOfNumbers.each {
         	if (it == 3) {
         		list << "Fizz"
-        	} else {											
-        		list << it
+                return
         	} 
+
+            if (it == 5) {											
+        		list << "Buzz"
+                return
+        	} 
+
+            list << it
         }
         list
     }
